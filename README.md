@@ -1,2 +1,2 @@
 # Beginning-JavaScript---Jeremy-McPeak
-Exercises & Exercises from the book
+Examples & Exercises from the book
