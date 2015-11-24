@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>chapter 3, Example 4</title>
+    <meta charset="UTF-8">
+    <title>chapter 3, Example 4</title>
 </head>
+
 <body>
-  <script>
-  var degreeFahr = [212, 32, 434.4];
-  var degreeCent = [];
-  var loopCounter;
-  for(loopCounter = 0;loopCounter <= 2;loopCounter++){
-    degreeCent[loopCounter] = 5/9*(degreeFahr[loopCounter] - 32);
-  }
-  for (var loopCounter = 2;loopCounter >= 0; loopCounter--) {
-    document.write("Value " + loopCounter + " was " + degreeFahr[loopCounter] + " degrees Fahrenheit which is " + degreeCent[loopCounter] + " degrees Celsius <br/>");
-  }
-  </script>
+    <script>
+    var degreeFahr = [212, 32, 434.4];
+    var degreeCent = [];
+    var loopCounter;
+    for (loopCounter = 0; loopCounter <= 2; loopCounter++) {
+        degreeCent[loopCounter] = 5 / 9 * (degreeFahr[loopCounter] - 32);
+    }
+    for (var loopCounter = 2; loopCounter >= 0; loopCounter--) {
+        document.write("Value " + loopCounter + " was " + degreeFahr[loopCounter] + " degrees Fahrenheit which is " + degreeCent[loopCounter] + " degrees Celsius <br/>");
+    }
+    </script>
 </body>
+
 </html>
